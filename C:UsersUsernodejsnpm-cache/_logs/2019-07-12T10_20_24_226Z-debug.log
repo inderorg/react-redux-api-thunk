@@ -1,0 +1,33 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'babel-preset-state-1' ]
+2 info using npm@6.9.0
+3 info using node@v10.15.3
+4 verbose npm-session 66432f02cb3fe593
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 404 https://registry.npmjs.com/babel-preset-state-1 2781ms
+8 http fetch GET 404 https://registry.npmjs.com/babel-preset-state-1 1632ms
+9 silly fetchPackageMetaData error for babel-preset-state-1@latest 404 Not Found - GET https://registry.npmjs.com/babel-preset-state-1 - Not found
+10 timing stage:rollbackFailedOptional Completed in 1ms
+11 timing stage:runTopLevelLifecycles Completed in 5172ms
+12 verbose stack Error: 404 Not Found - GET https://registry.npmjs.com/babel-preset-state-1 - Not found
+12 verbose stack     at res.buffer.catch.then.body (/usr/local/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:104:15)
+12 verbose stack     at process._tickCallback (internal/process/next_tick.js:68:7)
+13 verbose statusCode 404
+14 verbose pkgid babel-preset-state-1@latest
+15 verbose cwd /Users/inder.patliya/Desktop/speakapp/porfolio/reactreduxapi
+16 verbose Darwin 18.5.0
+17 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "babel-preset-state-1"
+18 verbose node v10.15.3
+19 verbose npm  v6.9.0
+20 error code E404
+21 error 404 Not Found - GET https://registry.npmjs.com/babel-preset-state-1 - Not found
+22 error 404
+23 error 404 'babel-preset-state-1@latest' is not in the npm registry.
+24 error 404 You should bug the author to publish it (or use the name yourself!)
+25 error 404 Note that you can also install from a
+26 error 404 tarball, folder, http url, or git url.
+27 verbose exit [ 1, true ]

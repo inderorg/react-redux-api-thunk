@@ -1,0 +1,10 @@
+.mainDiv {
+    background-color:pink;
+    text-align: center;
+  }
+  .mainDiv h1 {
+    color: blue;
+  }
+  .mainDiv p {
+    color: yellow;
+  }
